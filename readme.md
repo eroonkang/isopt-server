@@ -1,1 +1,1 @@
-isopt server 아닙니다.	
+isopt server 가 맞습니다.
