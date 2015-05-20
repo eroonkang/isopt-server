@@ -1,0 +1,25 @@
+doctype html
+html
+	head
+		title Create New Time
+
+	body
+		h1 New Time Record
+
+		#content
+			form action="/new" method="POST"
+				ul
+					li 
+						b Milliseconds/Minute 
+						input type="text" name="new_time[milliseconds]"
+					li 
+						b Password 
+						input type="text" name="new_time[password]"
+					li 
+						b User ID
+						select name="new_time[user_id]"
+							option value="1" 1
+							option value="2" 2
+							option value="3" 3
+					li 
+						input.button type="submit" value="Create New Time Record" 
